@@ -1,0 +1,6 @@
+{
+  "name": "JTR Plumbing and Maintenance",
+  "description": "Covering all aspects of internal and external plumbing and maintenance. Request a plumbing service or free quote directly online or via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

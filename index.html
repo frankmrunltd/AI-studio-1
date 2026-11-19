@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JTR Plumbing and Maintenance | Internal &amp; External Plumbing</title>
+    <meta
+      name="description"
+      content="JTR Plumbing and Maintenance covers all aspects of internal and external plumbing and property maintenance. Request a service or enquire on WhatsApp: 07851 564381."
+    />
+    <meta
+      name="keywords"
+      content="JTR Plumbing and Maintenance, plumbing repairs, bathroom plumbing, kitchen plumbing, pipework repairs, external plumbing, property maintenance"
+    />
+    <!-- Canonical URL placeholder: replace with live production domain upon deployment -->
+    <link rel="canonical" href="https://example.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="JTR Plumbing and Maintenance" />
+    <meta property="og:title" content="JTR Plumbing and Maintenance | Internal & External Plumbing" />
+    <meta
+      property="og:description"
+      content="Covering all aspects of internal and external plumbing and maintenance. Call or message 07851 564381 to discuss your requirements."
+    />
+    <meta property="og:image" content="/assets/aistudio/image_c8fc1e61.png" />
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="JTR Plumbing and Maintenance | Internal & External Plumbing" />
+    <meta
+      name="twitter:description"
+      content="Covering all aspects of internal and external plumbing and maintenance. Contact 07851 564381."
+    />
+    <meta name="twitter:image" content="/assets/aistudio/image_c8fc1e61.png" />
+
+    <!-- Fonts: Plus Jakarta Sans (Display) & DM Sans (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Structured Data: Verified Business Information Only -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Plumber",
+        "name": "JTR Plumbing and Maintenance",
+        "description": "Covering all aspects of internal and external plumbing and maintenance.",
+        "telephone": "+447851564381",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+447851564381",
+          "contactType": "customer service"
+        },
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Plumbing and Property Maintenance Services",
+          "itemListElement": [
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "General Plumbing" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bathroom Plumbing" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kitchen Plumbing" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pipework & Leak Repairs" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "External Plumbing" } },
+            { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Property Maintenance" } }
+          ]
+        }
+      }
+    </script>
+
+    <!-- Prevent theme flash before React mounts -->
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('jtr-theme');
+          var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (stored === 'dark' || (!stored && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-white text-[#121212] dark:bg-[#080808] dark:text-[#F5F5F5] antialiased selection:bg-[#FF6500] selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
